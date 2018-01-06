@@ -1,0 +1,50 @@
+{
+  "name": "QuizApp",
+  "version": "1.0.0",
+  "description": "Learning PWA's",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddssouza/quizApp.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --config ./webpack.config.js",
+    "build": "npm run clean && webpack --config ./webpack.config.js",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@angular/animations": "^4.3.0",
+    "@angular/common": "^4.3.0",
+    "@angular/compiler": "^4.3.0",
+    "@angular/core": "^4.3.0",
+    "@angular/forms": "^4.3.0",
+    "@angular/http": "^4.3.0",
+    "@angular/platform-browser": "^4.3.0",
+    "@angular/platform-browser-dynamic": "^4.3.0",
+    "@angular/router": "^4.3.0",
+    "@reactivex/rxjs": "^5.4.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.45",
+    "angular2-template-loader": "^0.6.2",
+    "angular4": "^1.0.0",
+    "awesome-typescript-loader": "^3.2.1",
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "circular-dependency-plugin": "^3.0.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "to-string-loader": "^1.1.5",
+    "typescript": "^2.4.1",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
